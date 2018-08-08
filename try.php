@@ -4,7 +4,7 @@
     $message = $_POST['message'];
 
 
-    $email_from = 'jayasrimankan@gmail.com';
+    $email_from = 'https://formspree.io/jayasrimankan@gmail.com';
 
     $email_subject = "Form Submission";
 
@@ -13,7 +13,7 @@
                         "User Message: $message.\n";
 
 
-    $to = "jayasrimankan@gmail.com";
+    $to = "https://formspree.io/jayasrimankan@gmail.com";
 
     $headers = "From: $email_from \r\n";
 
